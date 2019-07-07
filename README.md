@@ -18,7 +18,7 @@ Whenever the character is moved within the world i control that is within the ce
 
 If it goes outside of this block by entering one of the other 8, it is necessary to generate new blocks in the direction in which it is moving and eliminate those further away. In other words, I'm going to move the grid.
 
-The code that performs these operations is located within the [terrains.js](https://github.com/cerullosalvatore/RobotGL/blob/master/js/application.js)  file.
+The code that performs these operations is located within the [terrains.js](https://github.com/cerullosalvatore/RobotWebGL/blob/master/js/terrain.js)  file.
 
 ### SkyDome
 To simulate the sky I used object sphere. To achieve the shaded effect of the sky I made some personal shaders inserted and recalled inside the [index.html](https://github.com/cerullosalvatore/RobotWebGL/blob/master/index.html) file.
@@ -94,7 +94,7 @@ Crystal removal involves an animation implemented in function **animationRemotio
 
 ## Top Bar
 ![alt text](https://github.com/cerullosalvatore/RobotWebGL/blob/master/ImgReadme/0.png)
-A key element to support the player during the game is the top bar. This is written in html in the  [index.html](https://github.com/cerullosalvatore/RobotWebGL/blob/master/index.html) file. The style is implemented in the [barr.css](https://github.com/cerullosalvatore/RobotWebGL/blob/master/styles/bar.css) file.
+A key element to support the player during the game is the top bar. This is written in html in the  [index.html](https://github.com/cerullosalvatore/RobotWebGL/blob/master/index.html) file. The style is implemented in the [bar.css](https://github.com/cerullosalvatore/RobotWebGL/blob/master/styles/bar.css) file.
 The bar informs us of some editable parameters within the game:
 * Score: In the central part we find an icon of a diamond that allows us to view the accumulated score;
 * Video camera: the second icon indicates which room we are using (1 - First person; 2 -
