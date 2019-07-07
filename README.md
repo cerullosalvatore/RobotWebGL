@@ -1,6 +1,6 @@
 # RobotGL
 ![alt text](https://github.com/cerullosalvatore/RobotGL/blob/master/freeCamera.png)
-The application consists of a 3D game made with WebGL using Threejs. To view a demo of the application click [here](https://cerullosalvatore.github.io/RobotGL/). In the following I will give a brief summary of how the game was structured.
+The application consists of a 3D game made with WebGL using Threejs. To view a demo of the application click [here](https://cerullosalvatore.github.io/RobotWebGL/). In the following I will give a brief summary of how the game was structured.
 
 ## The Game
 The game consists of moving an animated robot within an infinite world and capturing some "crystals". Each crystal will increase the total score by one point.
