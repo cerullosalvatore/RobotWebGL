@@ -96,17 +96,17 @@ function createControls() {
                 switch (camera_type) {
                     case 1:
                         initializeThirdPersonCamera(robot);
-                        document.getElementById("ico-cam").src = "/icon/video-camera_2.png";
+                        document.getElementById("ico-cam").src = "icon/video-camera_2.png";
                         camera_type = 2;
                         break;
                     case 2:
                         initializeFreeCamera();
-                        document.getElementById("ico-cam").src = "/icon/video-camera_3.png";
+                        document.getElementById("ico-cam").src = "icon/video-camera_3.png";
                         camera_type = 3;
                         break;
                     case 3:
                         initializeFirstPersonCamera(robot);
-                        document.getElementById("ico-cam").src = "/icon/video-camera_1.png";
+                        document.getElementById("ico-cam").src = "icon/video-camera_1.png";
                         camera_type = 1;
                         break;
                 }
@@ -116,13 +116,13 @@ function createControls() {
                     scene.remove(skyDay);
                     setLightsNight();
                     createSkyNight();
-                    document.getElementById("ico-nd").src = "/icon/moon.png";
+                    document.getElementById("ico-nd").src = "icon/moon.png";
                     mode_dn = 1;
                 } else {
                     scene.remove(skyNight);
                     setLightsDay();
                     createSkyDay();
-                    document.getElementById("ico-nd").src = "/icon/sunny.png";
+                    document.getElementById("ico-nd").src = "icon/sunny.png";
                     mode_dn = 0;
                 }
                 break;
@@ -130,12 +130,12 @@ function createControls() {
                 if(music ==1){
                     audio.pause();
                     audio2.muted = true;
-                    document.getElementById("ico-sound").src = "/icon/mute.png";
+                    document.getElementById("ico-sound").src = "icon/mute.png";
                     music=0;
                 }else{
                     audio.play();
                     audio2.muted = false;
-                    document.getElementById("ico-sound").src = "/icon/speaker.png";
+                    document.getElementById("ico-sound").src = "icon/speaker.png";
                     audio.volume = 0.5;
                     music=1;
                 }
