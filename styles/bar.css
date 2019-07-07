@@ -1,0 +1,45 @@
+/* BOX TOP*/
+.box {
+    width: 100%;
+    position: absolute;
+}
+
+/* Division 3 grid principal */
+.main-overview {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-auto-rows: 80px;
+    margin: 1%;
+}
+
+/* CENTRAL CARD */
+.card_central {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+/*  */
+#points_view {
+    color: #ff2959;
+    font-size: 40px;
+    vertical-align: 50%;
+}
+
+/*  */
+.card_dx {
+    display: grid;
+    grid-template-columns: 34% 33% 33%;
+    grid-auto-rows: 80px;
+    justify-content: right;
+}
+
+.card_in_dx {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 20px;
+}
